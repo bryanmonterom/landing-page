@@ -1,0 +1,212 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;  
+}
+
+.header-color{
+    background-color: #1f2937;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.general-padding{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 80px;
+}
+
+
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;    
+    color: #f9faf8;
+}
+
+.header-links{
+    display: flex;
+    align-content: space-around;
+    align-items:   baseline ;
+    justify-items: flex-end;
+    padding: 5px;
+}
+
+
+
+a, p, .secondary-text{
+    text-decoration: none;
+    padding: 5px;  
+    color: #e5e7eb;  
+    font-size: 18px;
+
+}
+
+
+
+
+/* Segunda fila header */
+.hero{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 20px;  
+
+}
+
+
+.main-text{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.img-placeholder{
+    height: 180px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    background-color: gray;
+}
+.hero-item{
+    padding: 5px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white    ;
+    border-radius: 2px;
+    width: 120px;
+    height: 30px;
+    border-color: #3882f6;
+    padding: 5px;  
+
+}
+
+/* Segundo grupo */
+.secondary{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+.badges{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap:90px
+}
+
+.badge{
+    display: flex;
+    width: 120px;
+    text-align: center;
+    gap: 10px;
+    flex-direction: column;
+
+
+}
+.badge-square{
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    border: 2px solid #3882f6;
+
+}
+
+label{
+    text-decoration: none;
+    padding: 5px;  
+    color: #8891a4;  
+    font-weight: 500;
+    font-size: 18px;
+}
+/* tercer grupo */
+
+
+.quotes{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 20px;  
+
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author-name{
+    font-size: 16px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+justify-content: flex-end;   
+    font-weight: bold;
+}
+
+.author{
+justify-content: flex-end;   
+align-content: stretch;
+align-items: center;
+
+}
+
+/* tercer grupo */
+.call-to-action{
+background-color: #3882f6;
+border-radius: 5px;
+margin-left: 50px;
+margin-right: 50px;
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+justify-items: center;
+margin-top: 40px;
+}
+.white{
+    border: 1px solid white;
+}
+
+.sign-up{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.call{
+    font-size: 20px;
+}
+
+.call-to-action-container{
+padding: 20px;
+}
